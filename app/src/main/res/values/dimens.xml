@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="waffle_control_corner_material">18dp</dimen>
+    <dimen name="waffle_text_size_button_material">18sp</dimen>
+    <dimen name="waffle_btn_background_padding_vertical">10dp</dimen>
+    <dimen name="waffle_btn_background_padding_horizontal">16dp</dimen>
+</resources>

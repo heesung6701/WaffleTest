@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/abc_button_inset_horizontal_material"
+    android:insetTop="@dimen/abc_button_inset_vertical_material"
+    android:insetRight="@dimen/abc_button_inset_horizontal_material"
+    android:insetBottom="@dimen/abc_button_inset_vertical_material">
+    <ripple
+        android:color="?colorControlHighlight">
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/waffle_control_corner_material" />
+                <solid android:color="@android:color/white" />
+                <padding
+                    android:bottom="@dimen/waffle_btn_background_padding_vertical"
+                    android:left="@dimen/waffle_btn_background_padding_horizontal"
+                    android:right="@dimen/waffle_btn_background_padding_horizontal"
+                    android:top="@dimen/waffle_btn_background_padding_vertical" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

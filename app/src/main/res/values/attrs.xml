@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaffleView">
+        <attr name="waffleViewStyle" format="enum">
+            <enum name="PrimaryButton" value="0"/>
+            <enum name="NegativeButton" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="WaffleButton">
+        <attr name="waffleButtonStyle" format="enum">
+            <enum name="DefaultButton" value="0"/>
+            <enum name="PrimaryButton" value="1"/>
+            <enum name="NegativeButton" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

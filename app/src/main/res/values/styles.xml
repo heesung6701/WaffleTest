@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Waffle" parent="android:Widget">
+    </style>
+    <style name="Waffle.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/waffle_btn_default_mtrl_shape</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textAppearance">@style/Waffle.Button.TextAppearance</item>
+    </style>
+
+    <style name="Waffle.Button.Primary" parent="Waffle.Button">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Waffle.Button.Negative" parent="Waffle.Button">
+        <item name="android:backgroundTint">?attr/colorError</item>
+    </style>
+
+    <style name="Waffle.Button.TextAppearance" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textSize">@dimen/waffle_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+</resources>
